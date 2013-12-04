@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 				tasks: ['compass:dev']
 			},
 			js: {
-				files: ['js/*.js'],
+				files: ['js/dev/*.js'],
 				tasks: ['uglify']
 			}
 		},
@@ -34,7 +34,8 @@ module.exports = function(grunt) {
 			all: {
 				files: {
 					'js/min.js': [
-					'js/*.js']
+					'js/dev/*.js']
+					// 'js/*.js']
 				}
 			},
 		},
