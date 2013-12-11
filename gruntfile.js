@@ -6,16 +6,6 @@ module.exports = function(grunt) {
 		// CONFIG ===================================/
 
 		watch: {
-		  imagemin: {
-		    dynamic: {
-		      files: [{
-		        expand: true,
-		        cwd: 'dev/img/',
-		        src: ['dev/img/*.{png,jpg,gif}'],
-		        dest: 'src/img/'
-		      }]
-		    }
-		  },
 			compass: {
 				files: ['dev/sass/*.sass'],
 				tasks: ['compass:dev']
@@ -25,6 +15,16 @@ module.exports = function(grunt) {
 				tasks: ['uglify']
 			}
 		},
+	  imagemin: {
+	    dynamic: {
+	      files: [{
+	        expand: true,
+	        cwd: 'dev/img/',
+	        src: ['**/*.{png,jpg,gif}'],
+	        dest: 'src/img/'
+	      }]
+	    }
+	  },
 		compass: {
 			dev: {
 				options: {              
