@@ -46,7 +46,6 @@ module.exports = function(grunt) {
 				files: {
 					'src/js/min.js': [
 					'dev/js/*.js']
-					// 'js/*.js']
 				}
 			},
 		},
@@ -57,7 +56,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 	// TASKS =====================================/
