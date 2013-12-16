@@ -9,8 +9,10 @@ NOTE:
 This git repo WILL be expanded upon as time progresses.
 
 ---
+
 Upcoming improvements:
----
+------
+
 https://github.com/gruntjs/grunt-contrib-connect Or https://github.com/shakyShane/grunt-browser-sync
 https://github.com/zonak/grunt-ftp-deploy
 https://github.com/iclanzan/grunt-git-deploy
@@ -27,6 +29,7 @@ http://matthew-jackson.com/notes/development/grunt-workflow-for-sass-compass-and
 ==============================================
 
 Want to run this on your own projects?
+---
 
 - Install node, compass, grunt and anything else I've probably missed first (see the URLs above) -
 
