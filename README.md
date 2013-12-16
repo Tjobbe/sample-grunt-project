@@ -29,12 +29,14 @@ http://matthew-jackson.com/notes/development/grunt-workflow-for-sass-compass-and
 ==============================================
 
 Want to run this on your own projects?
----
+-----
 
 - Install node, compass, grunt and anything else I've probably missed first (see the URLs above) -
 
 ==============================================
 
+Getting started:
+--
 
 1) Create a package.json file by typing:
 
