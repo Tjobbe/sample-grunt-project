@@ -1,12 +1,20 @@
 sample-grunt-project
 ====================
 
-Uses compass and grunt to poll for changes and minify the js
+Uses compass and grunt to poll for changes and minify the js and images
 
-===
+https://github.com/Tjobbe/sample-grunt-project
 
-By Tjobbe Andrews, hopefully it's of use.
-twitter.com/tjobbe
+NOTE:
+This git repo WILL be expanded upon as time progresses.
+
+---
+Upcoming improvements:
+---
+https://github.com/gruntjs/grunt-contrib-connect Or https://github.com/shakyShane/grunt-browser-sync
+https://github.com/zonak/grunt-ftp-deploy
+https://github.com/iclanzan/grunt-git-deploy
+
 ==============================================
 
 Uses grunt to watch this directory. Currently uses SASS syntax.
@@ -32,12 +40,12 @@ Want to run this on your own projects?
 Which will then guide you through creating a package.json file - just hit enter for each step if you're not sure.
 
 
-2) Set up node for this folder, we need a node_modules folder in order for this to actually work so type:
+5) Set up node for this folder, we need a node_modules folder in order for this to actually work so type:
 
 	|| $ npm install grunt --save-dev
 
 
-3) now install the grunt plugins, in the default case you'll need to type the following:
+6) now install the grunt plugins, in the default case you'll need to type the following:
 
 	|| $ npm install grunt-contrib-watch --save-dev
 	|| $ npm install grunt-contrib-compass --save-dev
@@ -46,8 +54,10 @@ Which will then guide you through creating a package.json file - just hit enter 
 
 This will automagically update the package.json file for you.
 
+- you probably want to restart your terminal window at this stage.
 
-4) Good To Go, just type:
+
+7) Good To Go, just type:
 
 	|| $ grunt
 
